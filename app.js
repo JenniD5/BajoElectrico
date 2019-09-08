@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-//Hola again
-=======
 // Hola (Paula)
 
 const button = document.querySelectorAll('button');
@@ -13,7 +10,6 @@ const playnote = event =>{
     const audio = document.getElementById(audioId);
     console.log(audio);
     audio.pause();
-    audio.currentTime = 0;
+    audio.currentTime= 0;
     audio.play(); 
 }
->>>>>>> development
