@@ -1,0 +1,11 @@
+body
+{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+#bajo{
+    position: absolute;
+    z-index: auto;
+    left: 300px;
+    top : 10px;
+}
