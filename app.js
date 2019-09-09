@@ -1,5 +1,13 @@
 const buttons = document.querySelectorAll('button');
 
+buttons.forEach(
+    button =>
+    {
+        button.style.left = `${button.dataset.posx}px`;
+        button.style.top = `${button.dataset.posy}px`;
+    }
+);
+
 const playnote = event =>{
     const button = event.target;
     const note = button.dataset.note;
