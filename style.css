@@ -6,11 +6,6 @@ button{
     color: #000000;
 }
 
-body
-{
-    background-color: rgb(255, 255, 255);
-    margin: 0;
-}
 #bajo{
     position: absolute;
     z-index: auto;
@@ -20,6 +15,13 @@ body
 
 .btn-bass{
     position: absolute;
+} 
+
+body
+{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+
 }
 
 *{
