@@ -15,6 +15,7 @@ const playnote = event =>{
     const audioId = `audio${note}`;
     const audio = document.getElementById(audioId);
     const stringBass = document.querySelector(`div[data-note="${note}"]`);
+    /*animacion*/
     console.log(audio);
     audio.pause();
     audio.currentTime = 0;
