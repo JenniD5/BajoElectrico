@@ -17,3 +17,15 @@ body
     left: 300px;
     top : 10px;
 }
+
+.btn-bass{
+    position: absolute;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
