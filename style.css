@@ -50,3 +50,37 @@ body
     transform: translateY(10px);
     box-shadow: 0px 30px 5px -15px rgba(0,0,0,0.3);
 }
+
+div {
+   
+    width: 3px;
+    height: 230px;
+    opacity: .9;
+    border:#d6dde1 2px ridge;
+   
+    animation-delay: 0;
+    
+    /*transform: translate(700px, 465px);*/
+    position: relative;
+    left: 700px;
+   bottom: 0px;
+   top: 456px;
+}
+
+/*#rectangulo:hover{
+   
+    animation-duration: 10s;
+    animation-delay: 0;  
+    animation: shake 2s;
+     animation-play-state: running;   
+     animation-iteration-count:1;
+    }*/
+
+.animateString{
+    animation-duration: 10s;
+    animation-delay: 0;  
+    animation: shake 2s;
+    animation-play-state: running;   
+    animation-iteration-count:1;
+}  
+ 
