@@ -1,11 +1,143 @@
-body
-{
-    background-color: rgb(255, 255, 255);
-    margin: 0;
+button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    vertical-align: middle;
+    background-color: #fff;
+    color: #000000;
 }
+
 #bajo{
     position: absolute;
     z-index: auto;
     left: 300px;
     top : 10px;
 }
+
+.btn-bass{
+    position: absolute;
+} 
+
+body
+{
+    background-color: palevioletred;
+    margin: 0;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.btn-bass{
+    display: block;
+    background: linear-gradient(50deg, #4a7ff7, #f21cea);
+    padding: 10px 20px;
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    transition: all 300ms;
+}
+
+.btn-bass:hover{
+    transform: translateY(10px);
+    box-shadow: 0px 30px 5px -15px rgba(0,0,0,0.3);
+}
+
+div {
+   
+    width: 3px;
+    height: 97px;
+    opacity: .9;
+    border:#d6dde1 2px ridge;
+   
+    animation-delay: 0;
+    
+    /*transform: translate(700px, 465px);*/
+    position: relative;
+    left: 700px;
+   bottom: 0px;
+   top: 456px;
+}
+
+/*#rectangulo:hover{
+   
+    animation-duration: 10s;
+    animation-delay: 0;  
+    animation: shake 2s;
+     animation-play-state: running;   
+     animation-iteration-count:1;
+    }*/
+
+.animateString{
+    animation-duration: 10s;
+    animation-delay: 0;  
+    animation: shake 2s;
+    animation-play-state: running;   
+    animation-iteration-count:1;
+}  
+
+
+.b
+{
+    font-family: sans-serif;
+    position: absolute;
+    top: 500px;
+    left: 1000px;
+}
+.c
+{
+    font-family: sans-serif;
+    position: absolute;
+    top: 520px;
+    left: 1000px;
+}
+.d
+{
+    font-family: sans-serif;
+    position: absolute;
+    top: 540px;
+    left: 1000px;
+}
+.e
+{
+    font-family: sans-serif;
+    position: absolute;
+    top: 560px;
+    left: 1000px;
+}
+.f
+{
+    font-family: sans-serif;
+    position: absolute;
+    top: 580px;
+    left: 1000px;
+}
+
+.g
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    font-weight: bold;
+    font-size: 24px;
+    top: 300px;
+    left: 50px;
+}
+
+.h
+{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+position: absolute;
+font-weight: bold;
+font-size: 24px;
+top: 350px;
+left: 50px;
+}
+ 

@@ -5,22 +5,41 @@
         <title>Bajo Electrico</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
-    </head>
-
-    <body>
-        <img id="bajo" src="bajo.jpg"  width="700" height="700">
-        <button data-key="q" data-note="Sol" >Sol</button>
-        <button data-key="w" data-note="Re" >Re</button>
-        <button data-key="e" data-note="La">La</button>
-        <button data-key="r" data-note="Mi">Mi</button>
-
-        <audio id="Sol" src="audios/Sol.mp3"></audio>
-        <audio id="Re" src="audios/Re.mp3"></audio>
-        <audio id="La" src="audios/La.mp3"></audio>
-        <audio id="Mi" src="audios/Mi.mp3"></audio>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
         
-        <script type="text/javascript" src="app.js" ></script>
+    </head>
+    <img id="bajo" src= "bajo.png" width="700" height="700">
+    <body>
+        
+            <div id="rectangulo" data-note="Re" animated infinite shake style="top:613px; left:745px"></div>
+            <div id="rectangulo" data-note="Sol" animated infinite shake  style="top:516px; left:766px"></div>
+            <div id="rectangulo" data-note="Mi" animated infinite shake  style="top:420px; left:699px"></div>
+            <div id="rectangulo" data-note="La" animated infinite shake  style="top:323px; left:722px"></div>
+           
 
+        
+        <button class="btn-bass" data-posx="780" data-posy="360" data-key="q" data-note="Sol">Sol</button>
+        <button class="btn-bass" data-posx="730" data-posy="170" data-key="w" data-note="Re">Re</button>
+        <button class="btn-bass" data-posx="400" data-posy="170" data-key="e" data-note="La">La</button>
+        <button class="btn-bass" data-posx="420" data-posy="360" data-key="r" data-note="Mi">Mi</button>
+        
+
+        <audio id="audioSol" src="audios/Sol.mp3"></audio>
+        <audio id="audioRe" src="audios/Re.mp3"></audio>
+        <audio id="audioLa" src="audios/La.mp3"></audio>
+        <audio id="audioMi" src="audios/Mi.mp3"></audio>
+
+        <a class="g"><h1><pre>  Afinador de</pre></h1></a>
+        <a class="h"><h1><pre>Bajo Eléctrico</pre></h1></a>
+
+        <a class="b"><h4>Integrantes: </h4></a>
+        <a class="c"><h4>Jennifer Elizabeth Yáñez Duran</h4></a>
+        <a class="d"><h4>Karen Daniela López Bañuelos </h4></a>
+        <a class="e"><h4>Daniela Alejandra Ceniceros Galarza</h4></a>
+        <a class="f"><h4>Paula Remy Ochoa</h4></a>
+
+        <script type="text/javascript" src="app.js"></script>
     </body>
 
-    </html>
+</html>
