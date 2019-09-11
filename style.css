@@ -19,7 +19,7 @@ button{
 
 body
 {
-    background-color: rgb(255, 255, 255);
+    background-color: palevioletred;
     margin: 0;
 
 }
@@ -83,4 +83,41 @@ div {
     animation-play-state: running;   
     animation-iteration-count:1;
 }  
+
+
+.b
+{
+    font-family: sans-serif;
+    position: absolute;
+    top: 500px;
+    left: 1000px;
+}
+.c
+{
+    font-family: sans-serif;
+    position: absolute;
+    top: 520px;
+    left: 1000px;
+}
+.d
+{
+    font-family: sans-serif;
+    position: absolute;
+    top: 540px;
+    left: 1000px;
+}
+.e
+{
+    font-family: sans-serif;
+    position: absolute;
+    top: 560px;
+    left: 1000px;
+}
+.f
+{
+    font-family: sans-serif;
+    position: absolute;
+    top: 580px;
+    left: 1000px;
+}
  
