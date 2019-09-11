@@ -120,4 +120,24 @@ div {
     top: 580px;
     left: 1000px;
 }
+
+.g
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    font-weight: bold;
+    font-size: 24px;
+    top: 300px;
+    left: 50px;
+}
+
+.h
+{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+position: absolute;
+font-weight: bold;
+font-size: 24px;
+top: 350px;
+left: 50px;
+}
  
